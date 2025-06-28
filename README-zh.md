@@ -4,7 +4,7 @@
 
 ## 📹 演示视频
 
-![演示视频](./demo.gif)
+[![演示视频](./demo.png)](https://www.youtube.com/watch?v=qo-TBNS_RE8)
 
 > **平台支持：** 目前仅支持 macOS 和 Cursor。
 
