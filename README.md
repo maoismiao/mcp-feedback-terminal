@@ -2,6 +2,10 @@
 
 # MCP Feedback Terminal Quick Start
 
+## 📹 Demo
+
+[Demo Video](./demo.mp4)
+
 > **Platform Support:** Currently supports macOS and Cursor only.
 
 ## 🚀 Quick Start

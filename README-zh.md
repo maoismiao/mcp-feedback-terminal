@@ -2,6 +2,10 @@
 
 # MCP Feedback Terminal 快速开始
 
+## 📹 演示视频
+
+[演示视频](./demo.mp4)
+
 > **平台支持：** 目前仅支持 macOS 和 Cursor。
 
 ## 🚀 快速开始
