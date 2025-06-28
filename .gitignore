@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+logs
+.DS_Store
+.idea
+.vscode
+.mcp-feedback-port
+.cursor/mcp.json

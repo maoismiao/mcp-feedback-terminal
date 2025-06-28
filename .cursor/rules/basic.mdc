@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 不要创建任何的测试代码
+# 在任何任务结束前都需要调用 interactive_feedback 工具收集我的反馈

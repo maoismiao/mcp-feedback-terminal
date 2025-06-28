@@ -1,0 +1,53 @@
+{
+  "name": "mcp-feedback-terminal",
+  "version": "1.3.6",
+  "description": "MCP Feedback Terminal - Interactive terminal UI for feedback collection",
+  "license": "MIT",
+  "author": {
+    "name": "maoismiao",
+    "email": "maoismiao@gmail.com"
+  },
+  "type": "module",
+  "bin": {
+    "mcp-feedback-terminal": "./dist/cli.js"
+  },
+  "main": "dist/cli.js",
+  "types": "dist/cli.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "terminal",
+    "ui",
+    "feedback",
+    "interactive",
+    "ink",
+    "cli",
+    "react"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-highlight": "^2.1.11",
+    "ink": "^6.0.1",
+    "marked": "^15.0.12",
+    "marked-terminal": "^7.3.0",
+    "react": "^19.1.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/marked-terminal": "^6.1.1",
+    "@types/node": "^20.11.24",
+    "@types/react": "^19.1.8",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  }
+} 

@@ -1,0 +1,38 @@
+{
+  "name": "mcp-feedback-workspace",
+  "version": "1.3.3",
+  "description": "MCP Feedback Terminal Workspace - Interactive feedback collection with multi-image support",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "maoismiao",
+    "email": "maoismiao@gmail.com"
+  },
+  "type": "module",
+
+  "scripts": {
+    "build": "pnpm -r build",
+    "format": "biome format --write .",
+    "clean": "pnpm -r exec rm -rf dist",
+    "dev": "pnpm -r --parallel dev",
+    "publish:server": "cd packages/server && npm publish",
+    "publish:client": "cd packages/client && npm publish",
+    "publish:all": "pnpm publish:server && pnpm publish:client"
+  },
+  "keywords": [
+    "mcp",
+    "monorepo",
+    "terminal",
+    "ui",
+    "feedback",
+    "interactive",
+    "websocket"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "mcp-feedback-server",
+  "version": "1.4.0",
+  "description": "MCP Feedback Server - WebSocket server for collecting interactive feedback",
+  "license": "MIT",
+  "author": {
+    "name": "maoismiao",
+    "email": "maoismiao@gmail.com"
+  },
+  "type": "module",
+  "bin": {
+    "mcp-feedback-server": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "websocket",
+    "feedback",
+    "interactive"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.8.0",
+    "@types/ws": "^8.18.1",
+    "fastmcp": "^3.6.2",
+    "ws": "^8.18.2",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  }
+}
