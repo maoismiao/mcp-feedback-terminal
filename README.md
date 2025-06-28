@@ -4,7 +4,7 @@
 
 ## 📹 Demo
 
-[Demo Video](./demo.mp4)
+[Demo Video](./demo.gif)
 
 > **Platform Support:** Currently supports macOS and Cursor only.
 
